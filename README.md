@@ -30,4 +30,7 @@ CSS3: For styling the game board and layout.
 JavaScript: For game logic, turn tracking, win/draw detection, and interactivity.
 
 Game Board
+![image alt](https://github.com/LAXMAN7795/Tic-Tac-Toe/blob/59f4f14d36b119a61b1e7b01c23f6c75bebe8db1/Board.png)
+
+Winner Announcement
 
