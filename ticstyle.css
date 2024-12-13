@@ -1,0 +1,81 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the body */
+body {
+    background-color: rgb(81, 10, 247); /* Purple background */
+    text-align: center; /* Center align text */
+}
+
+/* Style for the main container */
+.container {
+    height: 70vh; /* Set height */
+    border-radius: 1rem; /* Rounded corners */
+    display: flex; /* Flexbox for centering */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the game grid */
+.game {
+    height: 60vmin; /* Square grid */
+    width: 60vmin;
+    border-radius: 1rem;
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin; /* Space between boxes */
+}
+
+/* Style for individual boxes */
+.box {
+    height: 18vmin; /* Box size */
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem; /* Rounded corners */
+    font-size: 8vmin; /* Font size for X and O */
+    color: red; /* Default color */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Style for reset button */
+#reset {
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(61, 12, 12); /* Dark red background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Style for new game button */
+#newbtn {
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(61, 12, 12); /* Dark red background */
+    color: white; /* White text */
+    margin-top: 7vmin; /* Margin from top */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Style for the message text */
+#msg {
+    color: wheat; /* Light text color */
+    font-size: 2rem; /* Font size */
+    margin-top: 2vmin; /* Margin from top */
+}
+
+/* Style for the notification container */
+.ncontain {
+    height: 30vmin; /* Container height */
+}
+
+/* Hide elements with this class */
+.hide {
+    display: none; /* Hide element */
+}

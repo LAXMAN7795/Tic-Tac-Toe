@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="ticstyle.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <!-- Notification container to display messages (winner or draw) -->
+    <div class="ncontain hide">
+        <p id="msg">Winner</p> <!-- Placeholder for the message -->
+        <button id="newbtn">New Game</button> <!-- Button to start a new game -->
+    </div>
+
+    <!-- Title of the game -->
+    <h1>Tic-Tac-Toe</h1>
+
+    <!-- Main game container -->
+    <div class="container">
+        <div class="game">
+            <!-- 9 buttons representing the Tic-Tac-Toe grid -->
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+
+    <!-- Reset button to restart the game -->
+    <button id="reset">Reset Game</button>
+
+    <!-- Link to the JavaScript file -->
+    <script src="ticjs.js"></script>
+</body>
+</html>
